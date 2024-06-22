@@ -1,0 +1,39 @@
+{
+  "SDKVersion": 2,
+  "Name": "MineSocket",
+  "Description": "Send commands to Minecraft servers using the MineSocket plugin.",
+  "Icon": "minesocket",
+  "Author": "Program.gg",
+  "CodePath": "app.html",
+  "Version": "1.0.0",
+  "Software":
+  {
+    "MinimumVersion": "6.1"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Category": "MineSocket",
+  "CategoryIcon": "minesocket",
+	"Actions": [
+		{
+			"UUID": "gg.program.minesocket.command",
+			"Icon": "actions/command/terminal-white",
+			"Name": "Command",
+			"Tooltip": "Send a command to the console.",
+			"PropertyInspectorPath": "actions/command/inspector.html",
+			"States": [
+				{
+					"Image": "actions/command/terminal-white"
+				}
+			]
+		}
+	]
+}

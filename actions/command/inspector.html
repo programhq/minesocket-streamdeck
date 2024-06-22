@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>MineSocket Command Property Inspector</title>
+  <link rel="stylesheet" href="../../libs/css/sdpi.css">
+  <body>
+    <div class="sdpi-wrapper">
+      <form id="action-form">
+        <div class="sdpi-item">
+          <div class="sdpi-item-label">Server:Port</div>
+          <input class="sdpi-item-value" name="serverPort" value="" placeholder="localhost:25595">
+        </div>
+        <div class="sdpi-item">
+          <div class="sdpi-item-label">Password</div>
+          <input class="sdpi-item-value" name="password" type="password" value="" placeholder="hackme">
+        </div>
+        <div class="sdpi-item">
+          <div class="sdpi-item-label">Command</div>
+          <input class="sdpi-item-value" name="command" value="" placeholder="say Hi from Stream Deck">
+        </div>
+      </form>
+    </div>
+
+     <!-- Stream Deck Libs -->
+      <script src="../../libs/js/constants.js"></script>
+      <script src="../../libs/js/prototypes.js"></script>
+      <script src="../../libs/js/timers.js"></script>
+      <script src="../../libs/js/utils.js"></script>
+      <script src="../../libs/js/events.js"></script>
+      <script src="../../libs/js/api.js"></script>
+      <script src="../../libs/js/property-inspector.js"></script>
+      <script src="../../libs/js/dynamic-styles.js"></script>
+
+      <script src="inspector.js"></script>
+  </body>
+</html>
